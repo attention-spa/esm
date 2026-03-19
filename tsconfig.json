@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "ESNext",
+    "sourceMap": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    /**
+    "lib": [
+      "WebWorker",
+      "ESNext"
+    ],
+    */
+    "tsBuildInfoFile": ".build/tsbuildinfo",
+    "moduleResolution": "nodenext",
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "auto",
+    "incremental": true,
+    "esModuleInterop": true,
+    "emitDeclarationOnly": true,
+    "composite": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "removeComments": false,
+    "noEmitHelpers": false,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@array/*": [
+        "src/array/*"
+      ],
+      "@src/*": [
+        "src/*"
+      ],
+      "@http/*": [
+        "src/http/*"
+      ],
+      "@types/*": [
+        "src/types/*"
+      ],
+      "@headers/*": [
+        "src/http/headers/*"
+      ],
+      "@validate/*": [
+        "src/validate/*"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "enable": true,
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "scripts"
+  ],
+  "ts-node": {
+    "esm": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "esm",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Attention-Spa/esm#readme",
+  "bugs": {
+    "url": "https://github.com/Attention-Spa/esm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Attention-Spa/esm.git"
+  },
+  "license": "MIT",
+  "author": "Dominik Bošnjak",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
